@@ -15,9 +15,3 @@ const decCoutn = ref(0);
     <button type="button" @click="decCoutn--">count is {{ decCoutn }}</button>
   </div>
 </template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
