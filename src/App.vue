@@ -1,7 +1,19 @@
-<script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+<script lang="ts">
+import Header from "./components/Header.vue";
+import Home from "./pages/Home.vue";
+
+export default {
+  components: {
+    Header,
+    Home,
+  },
+};
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <div class="app">
+    <Header />
+    <Home />
+  </div>
+  <RouterView />
 </template>
