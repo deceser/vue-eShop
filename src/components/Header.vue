@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <div class="logo">
-      <LogoSvg />
+      <router-link to="/">
+        <LogoSvg />
+      </router-link>
     </div>
     <div class="search-input">
       <SearchSvg />

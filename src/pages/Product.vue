@@ -1,7 +1,11 @@
 <template>
-  <div></div>
+  <div>sdasdasd</div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({});
+</script>
 
 <style scoped lang="scss"></style>

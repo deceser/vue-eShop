@@ -15,7 +15,9 @@
     <div class="product-price">
       <h1>$1000</h1>
     </div>
-    <button class="product-btn">View More</button>
+    <router-link to="/product">
+      <button class="product-btn">View More</button>
+    </router-link>
   </div>
 </template>
 
